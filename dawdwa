@@ -371,7 +371,7 @@ function library:Watermark(text)
         bar.BackgroundTransparency = 0
         bar.Size = UDim2.new(0, 0, 0, 1)
     
-        barCorner.CornerRadius = UDim.new(0, 2)
+        barCorner.CornerRadius = UDim.new(0, 20)
         barCorner.Name = "barCorner"
         barCorner.Parent = bar
     
@@ -384,7 +384,7 @@ function library:Watermark(text)
         backgroundGradient.Name = "backgroundGradient"
         backgroundGradient.Parent = background
     
-        backgroundCorner.CornerRadius = UDim.new(0, 2)
+        backgroundCorner.CornerRadius = UDim.new(0, 20)
         backgroundCorner.Name = "backgroundCorner"
         backgroundCorner.Parent = background
     
@@ -593,7 +593,7 @@ function library:InitNotifications(text, duration, callback)
         backgroundGradient.Name = "backgroundGradient"
         backgroundGradient.Parent = background
     
-        backgroundCorner.CornerRadius = UDim.new(0, 2)
+        backgroundCorner.CornerRadius = UDim.new(0, 20)
         backgroundCorner.Name = "backgroundCorner"
         backgroundCorner.Parent = background
     
@@ -1001,7 +1001,7 @@ function library:Init(key)
     containerEdge.Position = UDim2.new(0.637000024, 0, 0.536000013, 0)
     containerEdge.Size = UDim2.new(0, 414, 0, 360)
 
-    tabButtonCorner_3.CornerRadius = UDim.new(0, 2)
+    tabButtonCorner_3.CornerRadius = UDim.new(0, 20)
     tabButtonCorner_3.Name = "tabButtonCorner"
     tabButtonCorner_3.Parent = containerEdge
 
@@ -1012,7 +1012,7 @@ function library:Init(key)
     container.Position = UDim2.new(0.5, 0, 0.5, 0)
     container.Size = UDim2.new(0, 412, 0, 358)
 
-    containerCorner.CornerRadius = UDim.new(0, 2)
+    containerCorner.CornerRadius = UDim.new(0, 20)
     containerCorner.Name = "containerCorner"
     containerCorner.Parent = container
 
@@ -1222,7 +1222,7 @@ function library:Init(key)
             button.TextColor3 = Color3.fromRGB(0, 0, 0)
             button.TextSize = 14.000
 
-            buttonCorner.CornerRadius = UDim.new(0, 2)
+            buttonCorner.CornerRadius = UDim.new(0, 20)
             buttonCorner.Name = "buttonCorner"
             buttonCorner.Parent = button
 
@@ -1238,7 +1238,7 @@ function library:Init(key)
             buttonGradient.Name = "buttonGradient"
             buttonGradient.Parent = buttonBackground
 
-            buttonBackCorner.CornerRadius = UDim.new(0, 2)
+            buttonBackCorner.CornerRadius = UDim.new(0, 20)
             buttonBackCorner.Name = "buttonBackCorner"
             buttonBackCorner.Parent = buttonBackground
 
@@ -1326,7 +1326,7 @@ function library:Init(key)
                     button.TextColor3 = Color3.fromRGB(0, 0, 0)
                     button.TextSize = 14.000
         
-                    buttonCorner.CornerRadius = UDim.new(0, 2)
+                    buttonCorner.CornerRadius = UDim.new(0, 20)
                     buttonCorner.Name = "buttonCorner"
                     buttonCorner.Parent = button
         
@@ -1342,7 +1342,7 @@ function library:Init(key)
                     buttonGradient.Name = "buttonGradient"
                     buttonGradient.Parent = buttonBackground
         
-                    buttonBackCorner.CornerRadius = UDim.new(0, 2)
+                    buttonBackCorner.CornerRadius = UDim.new(0, 20)
                     buttonBackCorner.Name = "buttonBackCorner"
                     buttonBackCorner.Parent = buttonBackground
         
@@ -1595,7 +1595,7 @@ function library:Init(key)
             toggleEdge.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
             toggleEdge.Size = UDim2.new(0, 18, 0, 18)
 
-            toggleEdgeCorner.CornerRadius = UDim.new(0, 2)
+            toggleEdgeCorner.CornerRadius = UDim.new(0, 20)
             toggleEdgeCorner.Name = "toggleEdgeCorner"
             toggleEdgeCorner.Parent = toggleEdge
 
@@ -1606,7 +1606,7 @@ function library:Init(key)
             toggle.Position = UDim2.new(0.5, 0, 0.5, 0)
             toggle.Size = UDim2.new(0, 16, 0, 16)
 
-            toggleCorner.CornerRadius = UDim.new(0, 2)
+            toggleCorner.CornerRadius = UDim.new(0, 20)
             toggleCorner.Name = "toggleCorner"
             toggleCorner.Parent = toggle
 
@@ -1622,7 +1622,7 @@ function library:Init(key)
             toggleDesign.BackgroundTransparency = 1.000
             toggleDesign.Position = UDim2.new(0.5, 0, 0.5, 0)
 
-            toggleDesignCorner.CornerRadius = UDim.new(0, 2)
+            toggleDesignCorner.CornerRadius = UDim.new(0, 20)
             toggleDesignCorner.Name = "toggleDesignCorner"
             toggleDesignCorner.Parent = toggleDesign
 
@@ -1763,7 +1763,7 @@ function library:Init(key)
                 keybind.TextSize = 14.000
                 keybind.Active = false
     
-                keybindCorner.CornerRadius = UDim.new(0, 2)
+                keybindCorner.CornerRadius = UDim.new(0, 20)
                 keybindCorner.Name = "keybindCorner"
                 keybindCorner.Parent = keybind
     
@@ -1779,7 +1779,7 @@ function library:Init(key)
                 keybindGradient.Name = "keybindGradient"
                 keybindGradient.Parent = keybindBackground
     
-                keybindBackCorner.CornerRadius = UDim.new(0, 2)
+                keybindBackCorner.CornerRadius = UDim.new(0, 20)
                 keybindBackCorner.Name = "keybindBackCorner"
                 keybindBackCorner.Parent = keybindBackground
     
@@ -2005,7 +2005,7 @@ function library:Init(key)
             keybindGradient.Name = "keybindGradient"
             keybindGradient.Parent = keybindBackground
 
-            keybindBackCorner.CornerRadius = UDim.new(0, 2)
+            keybindBackCorner.CornerRadius = UDim.new(0, 20)
             keybindBackCorner.Name = "keybindBackCorner"
             keybindBackCorner.Parent = keybindBackground
 
